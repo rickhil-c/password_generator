@@ -10,11 +10,11 @@ no = False
 
 def get_password(length):
     # r = "".join(random.choice(chars) for i in range(int(length)))
-    r = ""
+    r_string = ""
     for i in range(int(length)):
         c = random.choice(chars)
-        r = r + c
-    return r
+        r_string = r_string + c
+    return r_string
 
 
 if initial_response:
